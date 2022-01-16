@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "bash && deno run -A https://deno.land/x/aleph@v0.3.0-beta.19/commands/build.ts",
+    "e:path": "echo >> ~/.bashrc 'export DENO_INSTALL=~/.deno\nexport PATH=$DENO_INSTALL/bin:$PATH'",
+    "i:deno": "curl -fsSL https://deno.land/install.sh | sh"
+  }
+}
